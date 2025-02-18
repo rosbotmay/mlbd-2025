@@ -23,9 +23,9 @@ def person_b(df):
     Returns:
     dataframe: Data from the female students
     """
-    # Code goes over here.
+    df_female = df[df["gender"]=="female"]
 
-    raise NotImplementedError()
+    return df_female
 
 def person_c(df):
     """Calculates the mean from the column "grade"
